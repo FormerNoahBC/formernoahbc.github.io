@@ -3,12 +3,12 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"Fortune_20Cookie_20Start_20V2_atlas_1", frames: [[0,0,1280,720],[0,722,1280,720]]},
+		{name:"Fortune_20Cookie_20Start_20V2_atlas_1", frames: [[1282,0,441,377],[1725,0,292,374],[1565,589,260,353],[1565,944,255,346],[1282,589,281,371],[1282,379,565,208],[0,0,1280,720],[0,722,1280,720]]},
 		{name:"Fortune_20Cookie_20Start_20V2_atlas_2", frames: [[0,0,1280,720],[0,722,1280,720]]},
 		{name:"Fortune_20Cookie_20Start_20V2_atlas_3", frames: [[0,0,1280,720],[0,722,1280,720]]},
 		{name:"Fortune_20Cookie_20Start_20V2_atlas_4", frames: [[0,0,1280,720],[0,722,1280,720]]},
 		{name:"Fortune_20Cookie_20Start_20V2_atlas_5", frames: [[0,0,1280,720],[0,722,1280,720]]},
-		{name:"Fortune_20Cookie_20Start_20V2_atlas_6", frames: [[1282,0,441,377],[1725,0,292,374],[1565,589,260,353],[1565,944,255,346],[1282,589,281,371],[1282,379,565,208],[0,0,1280,720],[0,722,1280,720]]}
+		{name:"Fortune_20Cookie_20Start_20V2_atlas_6", frames: [[0,0,1280,720],[0,722,1280,720]]}
 ];
 
 
@@ -33,126 +33,126 @@ lib.ssMetadata = [
 
 
 (lib._01_whole_cookie = function() {
-	this.initialize(ss["Fortune_20Cookie_20Start_20V2_atlas_6"]);
+	this.initialize(ss["Fortune_20Cookie_20Start_20V2_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._02_left_front = function() {
-	this.initialize(ss["Fortune_20Cookie_20Start_20V2_atlas_6"]);
+	this.initialize(ss["Fortune_20Cookie_20Start_20V2_atlas_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._03_left_back = function() {
-	this.initialize(ss["Fortune_20Cookie_20Start_20V2_atlas_6"]);
+	this.initialize(ss["Fortune_20Cookie_20Start_20V2_atlas_1"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._04_right_back = function() {
-	this.initialize(ss["Fortune_20Cookie_20Start_20V2_atlas_6"]);
+	this.initialize(ss["Fortune_20Cookie_20Start_20V2_atlas_1"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._05_right_front = function() {
-	this.initialize(ss["Fortune_20Cookie_20Start_20V2_atlas_6"]);
+	this.initialize(ss["Fortune_20Cookie_20Start_20V2_atlas_1"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._06_fortune_paper = function() {
-	this.initialize(ss["Fortune_20Cookie_20Start_20V2_atlas_6"]);
+	this.initialize(ss["Fortune_20Cookie_20Start_20V2_atlas_1"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.burst00 = function() {
-	this.initialize(ss["Fortune_20Cookie_20Start_20V2_atlas_1"]);
+	this.initialize(ss["Fortune_20Cookie_20Start_20V2_atlas_6"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.burst01 = function() {
-	this.initialize(ss["Fortune_20Cookie_20Start_20V2_atlas_1"]);
+	this.initialize(ss["Fortune_20Cookie_20Start_20V2_atlas_6"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.burst02 = function() {
-	this.initialize(ss["Fortune_20Cookie_20Start_20V2_atlas_2"]);
+	this.initialize(ss["Fortune_20Cookie_20Start_20V2_atlas_5"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.burst03 = function() {
-	this.initialize(ss["Fortune_20Cookie_20Start_20V2_atlas_2"]);
+	this.initialize(ss["Fortune_20Cookie_20Start_20V2_atlas_5"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.burst04 = function() {
-	this.initialize(ss["Fortune_20Cookie_20Start_20V2_atlas_3"]);
+	this.initialize(ss["Fortune_20Cookie_20Start_20V2_atlas_4"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.burst05 = function() {
-	this.initialize(ss["Fortune_20Cookie_20Start_20V2_atlas_3"]);
+	this.initialize(ss["Fortune_20Cookie_20Start_20V2_atlas_4"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.burst06 = function() {
-	this.initialize(ss["Fortune_20Cookie_20Start_20V2_atlas_4"]);
+	this.initialize(ss["Fortune_20Cookie_20Start_20V2_atlas_3"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.burst07 = function() {
-	this.initialize(ss["Fortune_20Cookie_20Start_20V2_atlas_4"]);
+	this.initialize(ss["Fortune_20Cookie_20Start_20V2_atlas_3"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.burst08 = function() {
-	this.initialize(ss["Fortune_20Cookie_20Start_20V2_atlas_5"]);
+	this.initialize(ss["Fortune_20Cookie_20Start_20V2_atlas_2"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.burst09 = function() {
-	this.initialize(ss["Fortune_20Cookie_20Start_20V2_atlas_5"]);
+	this.initialize(ss["Fortune_20Cookie_20Start_20V2_atlas_2"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.burst10 = function() {
-	this.initialize(ss["Fortune_20Cookie_20Start_20V2_atlas_6"]);
+	this.initialize(ss["Fortune_20Cookie_20Start_20V2_atlas_1"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.burst11 = function() {
-	this.initialize(ss["Fortune_20Cookie_20Start_20V2_atlas_6"]);
+	this.initialize(ss["Fortune_20Cookie_20Start_20V2_atlas_1"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
